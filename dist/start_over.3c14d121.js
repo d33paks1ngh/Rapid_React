@@ -736,8 +736,23 @@ const jsxheading = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
     columnNumber: 20
 }, undefined);
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
-root.render(jsxheading);
-console.log(heading);
+const Headingfun = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+        children: "This is heading using Functional component.."
+    }, void 0, false, {
+        fileName: "script.js",
+        lineNumber: 13,
+        columnNumber: 10
+    }, undefined);
+};
+_c = Headingfun;
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Headingfun, {}, void 0, false, {
+    fileName: "script.js",
+    lineNumber: 15,
+    columnNumber: 13
+}, undefined));
+var _c;
+$RefreshReg$(_c, "Headingfun");
 
   $parcel$ReactRefreshHelpers$a0da.postlude(module);
 } finally {

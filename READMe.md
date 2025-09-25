@@ -10,3 +10,9 @@ unlease the power of Parcel...
     - Introduction to JSX,
     - Created elements using jsx
     - use the power of bundler
+    - React Components..
+        1. Class based Components 
+        2. Functional components
+    rendriing of jsx and functional component and component composition...
+
+4 . Talk is cheap show me the code.

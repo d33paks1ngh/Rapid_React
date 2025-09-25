@@ -8,6 +8,8 @@ const heading = React.createElement(
 
 const jsxheading = <h1>This is using jsx</h1>;
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(jsxheading);
 
-console.log(heading);
+const Headingfun = () => {
+  return <h1>This is heading using Functional component..</h1>;
+};
+root.render(<Headingfun />);
