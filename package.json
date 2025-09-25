@@ -1,0 +1,24 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "2 . Ingiting the app using webpack\r unlease the power of Parcel...",
+  "main": "index.html",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d33paks1ngh/Rapid_React.git"
+  },
+  "author": "Deepak singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d33paks1ngh/Rapid_React/issues"
+  },
+  "homepage": "https://github.com/d33paks1ngh/Rapid_React#readme",
+  "dependencies": {
+    "parcel": "^2.16.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
